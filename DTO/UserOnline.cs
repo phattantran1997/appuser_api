@@ -10,6 +10,5 @@ namespace WebService.DTO
         public string jobNo { get; set; }
         public string itemNo { get; set; }
         public int stationNo { get; set; }
-
     }
 }
