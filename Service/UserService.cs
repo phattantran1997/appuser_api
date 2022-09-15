@@ -27,18 +27,12 @@ namespace WebService.Service.impl
         private static List<StationAttendes_jobtiming> onlineUserofSupervisor = new List<StationAttendes_jobtiming>();
         private static List<Operator> employees = new List<Operator>();
         public readonly AppuserDBContext appuserDBContext;
-        //public readonly DashboardDBContext dashboardDBContext;
-
-
         private static List<Operator> operators = new List<Operator>();
 
         public UserService(AppuserDBContext appuser)
         {
             this.appuserDBContext = appuser;
-
-
         }
-
 
         //recursiveHierarchy
         public void CheckHierarchy(string managerUsername, int level)

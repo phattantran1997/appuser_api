@@ -27,6 +27,8 @@
     <None Remove="Exceptions\" />
     <None Remove="Microsoft.IdentityModel.Abstractions" />
     <None Remove="Properties\PublishProfiles\" />
+    <None Remove="Microsoft.Office.Interop.Excel" />
+    <None Remove="Spire.XLS" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Exceptions\" />
@@ -36,5 +38,9 @@
     <ProjectReference Include="..\API_premierductsqld\DTO_PremierDucts\DTO_PremierDucts.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1001" />
+    <PackageReference Include="Spire.XLS" Version="12.8.1" />
   </ItemGroup>
 </Project>
